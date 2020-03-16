@@ -4,12 +4,15 @@
 }
 .main{
 	display: grid;
-	grid-auto-columns: 2fr 1fr;
+	grid-auto-columns: 70% 30%;
+	margin: 0 208px;
 }
 .page{
-	grid-column: 2/3;
+	grid-column: 1/3;
 }
 .details{
-	grid-column: 1/3;
-	background-color: yellow;
+	grid-column: 2/3;
+	margin: 90px 0;
+	position: fixed;
+	right: 208px;
 }
